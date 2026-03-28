@@ -1,4 +1,4 @@
-# 🏠 Edison Real Estate - UI Design
+# 🏠 real-state-project
 
 **Note: This is a sample static design without backend. This is just UI for demonstration purposes.**
 
