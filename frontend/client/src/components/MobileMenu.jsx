@@ -46,7 +46,7 @@ const MobileMenu = () => {
           </div>
 
           <div className="MenuItems__top__single">
-            <a href="javascript:void(0)">Gallery</a>
+            <button type="button">Gallery</button>
             <ul>
               <li><a href="/newsletter">Newsletter</a></li>
               <li><a href="/image-gallery">Image Gallery</a></li>
@@ -73,11 +73,11 @@ const MobileMenu = () => {
         <div className="MenuItems__bottom">
           <div className="Footer__social col-md-12">
             <ul>
-              <li><a href="javascript:" style={{backgroundImage: "url('assets/images/static/social.png')"}}></a></li>
-              <li><a href="javascript:" style={{backgroundImage: "url('assets/images/static/social.png')"}}></a></li>
-              <li><a href="javascript:" style={{backgroundImage: "url('assets/images/static/social.png')"}}></a></li>
-              <li><a href="javascript:" style={{backgroundImage: "url('assets/images/static/social.png')"}}></a></li>
-              <li><a href="javascript:" style={{backgroundImage: "url('assets/images/static/social.png')"}}></a></li>
+              <li><button type="button" aria-label="Social link" style={{backgroundImage: "url('assets/images/static/social.png')"}}></button></li>
+              <li><button type="button" aria-label="Social link" style={{backgroundImage: "url('assets/images/static/social.png')"}}></button></li>
+              <li><button type="button" aria-label="Social link" style={{backgroundImage: "url('assets/images/static/social.png')"}}></button></li>
+              <li><button type="button" aria-label="Social link" style={{backgroundImage: "url('assets/images/static/social.png')"}}></button></li>
+              <li><button type="button" aria-label="Social link" style={{backgroundImage: "url('assets/images/static/social.png')"}}></button></li>
             </ul>
           </div>
         </div>
