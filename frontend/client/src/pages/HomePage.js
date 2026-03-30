@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../components/Header';
-import MobileMenu from '../components/MobileMenu';
 import BannerSlider from '../components/BannerSlider';
 import AboutSection from '../components/AboutSection';
 import ProjectSlider from '../components/ProjectSlider';
@@ -25,7 +24,6 @@ function HomePage() {
       </a>
 
       <Header />
-      <MobileMenu />
       <SuggestionModal />
       <BannerSlider />
       <AboutSection />

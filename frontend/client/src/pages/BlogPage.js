@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../components/Header';
-import MobileMenu from '../components/MobileMenu';
 import Blog from '../components/Blog';
 import Footer from '../components/Footer';
 import SuggestionModal from '../components/SuggestionModal';
@@ -20,7 +19,6 @@ function BlogPage() {
       </a>
 
       <Header />
-      <MobileMenu />
       <SuggestionModal />
       <Blog />
       <Footer />
